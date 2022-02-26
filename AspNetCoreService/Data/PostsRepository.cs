@@ -54,7 +54,7 @@ namespace AspNetCoreService.Data
             }
         }
 
-        internal async static Task<bool> UpdatePostAsync(int postId)
+        internal async static Task<bool> DeletePostAsync(int postId)
         {
             using (var db = new AppDbContext())
             {
