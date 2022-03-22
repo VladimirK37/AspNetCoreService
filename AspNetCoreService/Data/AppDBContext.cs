@@ -7,7 +7,7 @@ namespace AspNetCoreService.Data
     {
        public DbSet<Post> Posts { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) => dbContextOptionsBuilder.UseSqlServer(@"Server=DESKTOP-F5O1VIO; Database=Mail; User Id = sa; Password=68Mafeda;");
+        protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) => dbContextOptionsBuilder.UseSqlServer(@"Server=DESKTOP-F5O1VIO; Database=Mail; User Id = **; Password=*******;");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
